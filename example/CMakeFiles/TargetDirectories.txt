@@ -1,0 +1,3 @@
+C:/Users/Vitaliy/OneDrive/Documents/Git/Builds/example/CMakeFiles/example.dir
+C:/Users/Vitaliy/OneDrive/Documents/Git/Builds/example/CMakeFiles/ALL_BUILD.dir
+C:/Users/Vitaliy/OneDrive/Documents/Git/Builds/example/CMakeFiles/ZERO_CHECK.dir

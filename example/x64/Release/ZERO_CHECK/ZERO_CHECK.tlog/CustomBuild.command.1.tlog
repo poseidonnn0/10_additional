@@ -1,0 +1,10 @@
+^C:\USERS\VITALIY\ONEDRIVE\DOCUMENTS\GIT\BUILDS\EXAMPLE\CMAKEFILES\3B1B2DF52DB879096132E19ACC2E9799\GENERATE.STAMP.RULE
+setlocal
+C:\cmake-3.21.3-windows-x86_64\bin\cmake.exe -SC:/Users/Vitaliy/OneDrive/Documents/example -BC:/Users/Vitaliy/OneDrive/Documents/Git/Builds/example --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Vitaliy/OneDrive/Documents/Git/Builds/example/example.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
